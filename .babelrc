@@ -1,4 +1,4 @@
-/* Helpful hint from a boilerplate tutorial--"env" will transpile ES6-ES8 */
+/* "env" will transpile ES6-ES8, not ES5 */
 
 {
   "presets": ["es2015", "env", "react"]
