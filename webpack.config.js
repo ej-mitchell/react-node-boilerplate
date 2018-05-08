@@ -4,11 +4,11 @@ const HtmlWebPackPlugin = require('html-webpack-plugin')
 
 const moduleObj = {
     rules: [
-        {
-            test: /\.js$/,
-            exclude: /node_modules/,
-            use: ["babel-loader"],
-        }
+      {
+        test: /\.js$/,
+        exclude: /node_modules/,
+        use: 'babel-loader'
+      }
     ],
 };
 
