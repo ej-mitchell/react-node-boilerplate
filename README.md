@@ -17,9 +17,9 @@ npm start
 ```
 
 Feature list:
-[1/2] 1 Basic server with stateless React Component \n
-[] 2 Add Stateful Component \n
-[] 3 Add testing for both components (update Karma/Enzyme tests in React-on-Rails repo for Jest) \n
-[] 4 Add support for bundling for production \n
-[] 5 Add Redux \n
-[] 6 Redux testing?? \n
+- [1/2] 1 Basic server with stateless React Component \n
+- [] 2 Add Stateful Component \n
+- [] 3 Add testing for both components (update Karma/Enzyme tests in React-on-Rails repo for Jest) \n
+- [] 4 Add support for bundling for production \n
+- [] 5 Add Redux \n
+- [] 6 Redux testing?? \n
