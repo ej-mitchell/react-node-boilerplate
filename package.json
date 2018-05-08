@@ -1,0 +1,51 @@
+{
+  "name": "react-node-boilerplate",
+  "version": "1.0.0",
+  "description": "A React/Node JS Boilerplate using Express.",
+  "main": "server.js",
+  "jest": {
+    "setupTestFrameworkScriptFile": "./src/enzyme.setup.js"
+  },
+  "scripts": {
+    "build": "webpack",
+    "build-babel": "npm run build-server && npm run build-client",
+    "build-babel-server": "babel src/server --out-dir ./dist",
+    "build-babel-client": "babel src/client --copy-files --out-dir ./dist/public",
+    "clean": "rimraf dist node_modules",
+    "start": "node ./src/server/server.js",
+    "test": "jest ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "reactjs",
+    "nodejs",
+    "expressjs",
+    "boilerplate"
+  ],
+  "author": "Eliza Mitchell",
+  "dependencies": {
+    "ajv": "^6.4.0",
+    "express": "^4.16.3",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "rimraf": "^2.6.2",
+    "webpack": "^4.6.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^22.4.3",
+    "react-test-renderer": "^16.3.2",
+    "webpack-cli": "^2.1.2",
+    "webpack-node-externals": "^1.7.2"
+  }
+}
