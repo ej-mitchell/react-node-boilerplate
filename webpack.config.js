@@ -7,9 +7,11 @@ const moduleObj = {
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        use: 'babel-loader'
+        use: {
+          loader: 'babel-loader'
+        }
       }
-    ],
+    ]
 };
 
 const client = {
