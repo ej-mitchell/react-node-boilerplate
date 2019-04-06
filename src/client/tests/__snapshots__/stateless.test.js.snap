@@ -1,0 +1,151 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Stateless should match snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Stateless
+    name="Epsilon"
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h4>
+          What a boring old stateless component, I am!
+        </h4>,
+        <p>
+          But at least I can say your name, 
+          Epsilon
+        </p>,
+        <p>
+          Hint, your name is a prop! :)
+        </p>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "What a boring old stateless component, I am!",
+        },
+        "ref": null,
+        "rendered": "What a boring old stateless component, I am!",
+        "type": "h4",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            "But at least I can say your name, ",
+            "Epsilon",
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          "But at least I can say your name, ",
+          "Epsilon",
+        ],
+        "type": "p",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Hint, your name is a prop! :)",
+        },
+        "ref": null,
+        "rendered": "Hint, your name is a prop! :)",
+        "type": "p",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h4>
+            What a boring old stateless component, I am!
+          </h4>,
+          <p>
+            But at least I can say your name, 
+            Epsilon
+          </p>,
+          <p>
+            Hint, your name is a prop! :)
+          </p>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "What a boring old stateless component, I am!",
+          },
+          "ref": null,
+          "rendered": "What a boring old stateless component, I am!",
+          "type": "h4",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              "But at least I can say your name, ",
+              "Epsilon",
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            "But at least I can say your name, ",
+            "Epsilon",
+          ],
+          "type": "p",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Hint, your name is a prop! :)",
+          },
+          "ref": null,
+          "rendered": "Hint, your name is a prop! :)",
+          "type": "p",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
