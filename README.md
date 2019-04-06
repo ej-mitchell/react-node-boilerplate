@@ -10,15 +10,15 @@ Test are done in Jest and Enzyme. To run the tests, you can run the following:
 
 To run this boilerplate, you can clone the repo to your machine, then run the following:
 
-`npm install`
-`npm run build`
-`npm start`
-
+```
+npm install
+npm run build
+npm start
+```
 
 Feature list:
-[] 1 Basic server with stateless React Component
-[] 2 Add Stateful Component
-[] 3 Add testing for both components (update Karma/Enzyme tests in React-on-Rails repo for Jest)
-[] 4 Add support for Dev, Test, Stage, Prod envs
-[] 5 Add Redux
-[] 6 Redux testing??
+- [x] (1) Basic server with stateless and stateful React Components
+- [ ] (2) Add testing for both components (update Karma/Enzyme tests in React-on-Rails repo for Jest)
+- [ ] (3) Add support for bundling for production
+- [ ] (4) Add Redux
+- [ ] (5) Redux testing??
